@@ -1,0 +1,7 @@
+@mixin links {
+    color: $color-black;
+    display: inline-block;
+    font-family: $principal;
+    text-align: center;
+    text-decoration: none;
+}

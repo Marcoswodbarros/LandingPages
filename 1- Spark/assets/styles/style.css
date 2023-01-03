@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+}
+body header {
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+body header p {
+  font-family: "Roboto";
+  font-size: 0.8rem;
+}
+body header a {
+  color: black;
+  display: inline-block;
+  font-family: "Roboto";
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+body main h1 {
+  color: white;
+  font-size: 2rem;
+  margin: 0.8rem 0;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+body main img {
+  width: 100%;
+}
+body main .main__container--links {
+  align-items: center;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+body main .main__container--links .main__button--first {
+  color: black;
+  display: inline-block;
+  font-family: "Roboto";
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  margin-left: 1.5rem;
+  padding: 1rem 2rem;
+}
+body main .main__container--links .main__button--second {
+  color: black;
+  display: inline-block;
+  font-family: "Roboto";
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-right: 1.8rem;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+}
+body footer p {
+  color: white;
+}
+body footer p a {
+  color: black;
+  display: inline-block;
+  font-family: "Roboto";
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

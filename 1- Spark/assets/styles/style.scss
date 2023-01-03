@@ -1,0 +1,76 @@
+@import 'abstract/variables';
+@import 'abstract/utilities';
+
+body{
+    background-color: $color-black;
+    box-sizing: border-box;
+
+    header{
+        background-color: $color-main;
+        display: flex;
+        justify-content: space-between;
+        padding: .8rem;
+
+        p{
+            font-family: $principal;
+            font-size: .8rem;
+        }
+
+        a{
+            @include links;
+            font-size: .8rem;
+        }
+    }
+
+    main{
+        h1{
+            color: $color-white;
+            font-size: 2rem;
+            margin: .8rem 0;
+            padding: .5rem 1rem;
+            text-align: center;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .main__container--links{
+            align-items: center;
+            display: flex;
+            gap: .8rem;
+            justify-content: space-between;
+            margin-top: 1rem;
+
+            .main__button--first{
+                @include links;
+                border: 1px solid $color-white;
+                color: $color-white;
+                margin-left: 1.5rem;
+                padding: 1rem 2rem;
+            }
+
+            .main__button--second{
+                @include links;
+                color: $color-white;
+                margin-right: 1.8rem;
+            }
+        }
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        font-size: .8rem;
+
+        p{
+            color: $color-white;
+
+            a{
+                @include links;
+                color: $color-white;
+            }
+        }
+    }
+}
