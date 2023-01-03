@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: .8rem;
+    padding-bottom: .95rem;
+
+    p{
+        a{
+            @include links;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+header{
+    background-color: $color-main;
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem;
+
+    p{
+        font-family: $principal;
+        font-size: .8rem;
+    }
+
+    .fa-moon{
+        display: none;
+    }
+
+    a{
+        @include links;
+        color: $color-black;
+        font-size: .8rem;
+    }
+}
