@@ -8,6 +8,7 @@ footer{
     p{
         a{
             @include links;
+            color: $color-black;
         }
     }
 }

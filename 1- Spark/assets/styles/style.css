@@ -55,6 +55,7 @@ main .main__container--links .main__button--second {
   font-family: "Roboto";
   text-align: center;
   text-decoration: none;
+  color: black;
   margin-right: 1.8rem;
 }
 
@@ -71,9 +72,9 @@ footer p a {
   font-family: "Roboto";
   text-align: center;
   text-decoration: none;
+  color: black;
 }
 
 body {
-  background: linear-gradient(to bottom, white, gray 70%);
   box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */

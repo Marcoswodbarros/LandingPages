@@ -28,6 +28,7 @@ main{
 
         .main__button--second{
             @include links;
+            color: $color-black;
             margin-right: 1.8rem;
         }
     }
