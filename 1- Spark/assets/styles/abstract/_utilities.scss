@@ -5,3 +5,8 @@
     text-align: center;
     text-decoration: none;
 }
+
+@mixin headerTablet {
+    font-size: 1.5rem;
+    padding: .9rem;
+}

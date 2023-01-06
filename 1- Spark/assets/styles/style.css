@@ -8,8 +8,26 @@ header p {
   font-family: "Roboto";
   font-size: 0.8rem;
 }
+@media screen and (min-width: 1024px) {
+  header p {
+    font-size: 1.5rem;
+    padding: 0.9rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .fa-sun {
+    font-size: 1.5rem;
+    padding: 0.9rem;
+  }
+}
 header .fa-moon {
   display: none;
+}
+@media screen and (min-width: 1024px) {
+  header .fa-moon {
+    font-size: 1.5rem;
+    padding: 0.9rem;
+  }
 }
 header a {
   color: white;
@@ -20,6 +38,12 @@ header a {
   color: black;
   font-size: 0.8rem;
 }
+@media screen and (min-width: 1024px) {
+  header a {
+    font-size: 1.5rem;
+    padding: 0.9rem;
+  }
+}
 
 main h1 {
   color: black;
@@ -27,6 +51,11 @@ main h1 {
   margin: 0.8rem 0;
   padding: 0.5rem 1rem;
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  main h1 {
+    font-size: 2.5rem;
+  }
 }
 main img {
   width: 100%;
@@ -37,6 +66,11 @@ main .main__container--links {
   gap: 0.8rem;
   justify-content: space-between;
   margin-top: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  main .main__container--links {
+    justify-content: space-around;
+  }
 }
 main .main__container--links .main__button--first {
   color: white;
@@ -49,6 +83,12 @@ main .main__container--links .main__button--first {
   margin-left: 1.5rem;
   padding: 1rem 2rem;
 }
+@media screen and (min-width: 1024px) {
+  main .main__container--links .main__button--first {
+    font-size: 1.5rem;
+    padding: 1.2rem 2.2rem;
+  }
+}
 main .main__container--links .main__button--second {
   color: white;
   display: inline-block;
@@ -58,6 +98,11 @@ main .main__container--links .main__button--second {
   color: black;
   margin-right: 1.8rem;
 }
+@media screen and (min-width: 1024px) {
+  main .main__container--links .main__button--second {
+    font-size: 1.5rem;
+  }
+}
 
 footer {
   display: flex;
@@ -66,6 +111,11 @@ footer {
   font-size: 0.8rem;
   padding-bottom: 0.95rem;
 }
+@media screen and (min-width: 1024px) {
+  footer {
+    font-size: 1.2rem;
+  }
+}
 footer p a {
   color: white;
   display: inline-block;
@@ -73,6 +123,11 @@ footer p a {
   text-align: center;
   text-decoration: none;
   color: black;
+}
+@media screen and (min-width: 1024px) {
+  footer p a {
+    font-size: 1.2rem;
+  }
 }
 
 body {

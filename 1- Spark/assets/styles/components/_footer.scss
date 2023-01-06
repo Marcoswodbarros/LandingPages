@@ -5,10 +5,18 @@ footer{
     font-size: .8rem;
     padding-bottom: .95rem;
 
+    @media screen and (min-width: $tablet){
+        font-size: 1.2rem;
+    }
+
     p{
         a{
             @include links;
             color: $color-black;
+
+            @media screen and (min-width: $tablet){
+                font-size: 1.2rem;
+            }
         }
     }
 }

@@ -7,15 +7,33 @@ header{
     p{
         font-family: $principal;
         font-size: .8rem;
+
+        @media screen and (min-width: $tablet){
+            @include headerTablet;
+        }
+    }
+
+    .fa-sun{
+        @media screen and (min-width: $tablet){
+            @include headerTablet;
+        }
     }
 
     .fa-moon{
         display: none;
+
+        @media screen and (min-width: $tablet){
+            @include headerTablet;
+        }
     }
 
     a{
         @include links;
         color: $color-black;
         font-size: .8rem;
+
+        @media screen and (min-width: $tablet){
+            @include headerTablet;
+        }
     }
 }
