@@ -1,0 +1,187 @@
+main {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+main #main__container--all {
+  align-items: center;
+  background-color: rgb(224, 224, 224);
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+main #main__container--all .main__container--intro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+  width: 90%;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .main__container--intro {
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+  }
+}
+main #main__container--all .main__container--intro p {
+  font-family: "Roboto";
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .main__container--intro p {
+    font-size: 1.5rem;
+  }
+}
+main #main__container--all .main__container--intro .fa-sun {
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .main__container--intro .fa-sun {
+    font-size: 1.5rem;
+  }
+}
+main #main__container--all .main__container--intro .fa-moon {
+  color: white;
+  display: none;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .main__container--intro .fa-moon {
+    font-size: 1.5rem;
+  }
+}
+main #main__container--all .main__container--intro a {
+  color: white;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+main #main__container--all .main__container--intro a:hover {
+  border-bottom: 1px solid black;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .main__container--intro a {
+    font-size: 1.5rem;
+  }
+}
+main #main__container--all .title {
+  margin: 2rem 0 5rem 0;
+  width: 50%;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .title {
+    margin: 4rem 0 7rem 0;
+  }
+}
+main #main__container--all .title h1 {
+  font-family: "Roboto";
+  font-size: 2rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .title h1 {
+    font-size: 3.5rem;
+  }
+}
+main #main__container--all .main__container--links {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+main #main__container--all .main__container--links .main__button--first {
+  color: white;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+main #main__container--all .main__container--links .main__button--first:hover {
+  font-size: 1rem;
+  transition: all 1s;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .main__container--links .main__button--first {
+    font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+  }
+}
+main #main__container--all .main__container--links .main__button--second {
+  color: white;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+main #main__container--all .main__container--links .main__button--second:hover {
+  border-bottom: 1px solid black;
+}
+@media screen and (min-width: 1780px) {
+  main #main__container--all .main__container--links .main__button--second {
+    font-size: 1.5rem;
+  }
+}
+main .main__container--img {
+  background-image: url("../images/mobile.jpg");
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+@media screen and (min-width: 1780px) {
+  main .main__container--img {
+    width: 50%;
+  }
+}
+
+footer {
+  bottom: 0;
+  left: 50%;
+  font-size: 0.6rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  transform: translate(-50%);
+}
+@media screen and (min-width: 1780px) {
+  footer {
+    font-size: 1.5rem;
+  }
+}
+footer a {
+  color: white;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.6rem;
+}
+@media screen and (min-width: 1780px) {
+  footer a {
+    font-size: 1.5rem;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(169, 169, 169);
+}/*# sourceMappingURL=style.css.map */

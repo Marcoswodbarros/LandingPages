@@ -1,0 +1,10 @@
+@import 'abstract/variables';
+@import 'abstract/utilities';
+@import 'components/main';
+@import 'components/footer';
+
+body{
+    // background: linear-gradient(to bottom, white, gray 70%);
+    box-sizing: border-box;
+    background-color: $color-body;
+}

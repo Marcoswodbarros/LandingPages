@@ -1,0 +1,144 @@
+main{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+
+    #main__container--all{
+        align-items: center;
+        background-color: $color-main;
+        border-bottom-left-radius: 1rem;
+        border-top-left-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        .main__container--intro{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+            padding-top: 1rem;
+            width: 90%;
+
+            @media screen and (min-width: $desktop){
+                margin-bottom: 5rem;
+                padding-top: 2rem;
+            }
+        
+            p{
+                font-family: $principal;
+                font-size: .8rem;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                }
+            }
+
+            .fa-sun{
+                font-size: .8rem;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                }
+            }
+        
+            .fa-moon{
+                color: $color-white;
+                display: none;
+                font-size: .8rem;
+                
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                }
+            }
+        
+            a{
+                @include links;
+                color: $color-black;
+
+                &:hover{
+                    border-bottom: 1px solid $color-black;
+                }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .title{
+            margin: 2rem 0 5rem 0;
+            width: 50%;
+
+            @media screen and (min-width: $desktop){
+                margin: 4rem 0 7rem 0;
+            }
+
+            h1{
+                font-family: $principal;
+                font-size: 2rem;
+                font-weight: 700;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 3.5rem;
+                }
+            }
+        }
+
+        .main__container--links{
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            gap: 1.5rem;
+
+            .main__button--first{
+                @include links;
+                background-color: $color-black;
+                border-radius: .5rem;
+                padding: 1rem 2rem;
+
+                &:hover{
+                    font-size: 1rem;
+                    transition: all 1s;
+                }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                    padding: 1.5rem 3rem;
+                }
+            }
+    
+            .main__button--second{
+                @include links;
+                color: $color-black;
+
+                &:hover{
+                    border-bottom: 1px solid $color-black;
+                }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+    }
+
+    .main__container--img{
+        background-image: url('../images/mobile.jpg');
+        height: 100%;
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+
+        @media screen and (min-width: $desktop){
+            width: 50%;
+        }
+    }
+}
