@@ -8,7 +8,7 @@ main{
             font-family: $font-title;
             font-size: 4rem;
             text-align: center;
-            width: 40%;
+            width: 20rem;
     
             span{
                 font-family: $font-text;
@@ -53,6 +53,35 @@ main{
         .main__img--second{
             background-image: url('../images/car.jpg');
             @include imgFormat;
+        }
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        margin-top: 5rem;
+
+        .section__container{
+            display: flex;
+            font-size: .8rem;
+            gap: 1rem;
+            line-height: 1rem;
+            margin-left: 3rem;
+
+            p{
+                width: 68%;
+            }
+        }
+        
+        .section__container--second{
+            border-left: 1px solid $color-black;
+            border-right: 1px solid $color-black;
+            padding-left: 3rem;
+
+            .section__container--text{
+                width: 65%;
+            }
         }
     }
 }

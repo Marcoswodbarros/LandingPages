@@ -13,6 +13,7 @@ header ul {
   display: flex;
   font-family: "Montserrat";
   gap: 2rem;
+  margin-left: 5rem;
 }
 header .header__container--connect {
   display: flex;
@@ -28,7 +29,7 @@ main .main__container--title h1 {
   font-family: "Allura";
   font-size: 4rem;
   text-align: center;
-  width: 40%;
+  width: 20rem;
 }
 main .main__container--title h1 span {
   font-family: "Montserrat";
@@ -74,6 +75,46 @@ main .main__container .main__img--second {
   background-size: contain;
   height: 30vh;
   width: 20%;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+main section .section__container {
+  display: flex;
+  font-size: 0.8rem;
+  gap: 1rem;
+  line-height: 1rem;
+  margin-left: 3rem;
+}
+main section .section__container p {
+  width: 68%;
+}
+main section .section__container--second {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-left: 3rem;
+}
+main section .section__container--second .section__container--text {
+  width: 65%;
+}
+
+footer {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  margin-bottom: 0.5rem;
+}
+footer span {
+  font-size: 0.8rem;
+}
+footer span a {
+  color: black;
+  font-size: 0.8rem;
+  text-decoration: none;
 }
 
 * {

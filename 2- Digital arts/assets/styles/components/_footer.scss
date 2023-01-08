@@ -1,0 +1,17 @@
+footer{
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    margin-bottom: .5rem;
+
+    span{
+        font-size: .8rem;
+
+        a{
+            color: $color-black;
+            font-size: .8rem;
+            text-decoration: none;
+        }
+    }
+}
