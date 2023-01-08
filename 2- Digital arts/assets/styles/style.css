@@ -1,0 +1,24 @@
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header .fa-globe {
+  margin-right: 3rem;
+}
+header ul {
+  display: flex;
+  font-family: "Montserrat";
+  gap: 2rem;
+}
+header .header__container--connect {
+  display: flex;
+  gap: 0.5rem;
+  font-family: "Montserrat";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}/*# sourceMappingURL=style.css.map */
