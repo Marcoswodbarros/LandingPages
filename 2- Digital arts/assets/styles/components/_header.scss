@@ -1,7 +1,9 @@
 header{
-    background-color: lightgray;
+    align-items: center;
     display: flex;
+    font-size: .8rem;
     justify-content: space-between;
+    margin-bottom: 3rem;
     padding: 1rem;
 
     .fa-globe{

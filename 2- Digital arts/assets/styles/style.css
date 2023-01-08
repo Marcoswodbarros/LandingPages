@@ -1,7 +1,9 @@
 header {
-  background-color: lightgray;
+  align-items: center;
   display: flex;
+  font-size: 0.8rem;
   justify-content: space-between;
+  margin-bottom: 3rem;
   padding: 1rem;
 }
 header .fa-globe {
@@ -16,6 +18,62 @@ header .header__container--connect {
   display: flex;
   gap: 0.5rem;
   font-family: "Montserrat";
+}
+
+main .main__container--title {
+  display: flex;
+  justify-content: center;
+}
+main .main__container--title h1 {
+  font-family: "Allura";
+  font-size: 4rem;
+  text-align: center;
+  width: 40%;
+}
+main .main__container--title h1 span {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+main .main__container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+main .main__container .main__img--first {
+  background-image: url("../images/headphone.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30vh;
+  width: 20%;
+}
+main .main__container .main__container--text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .main__container .main__container--text p {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  text-align: center;
+  width: 60%;
+}
+main .main__container .main__container--text span {
+  background-color: black;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 0.6rem;
+  padding: 1rem 2rem;
+}
+main .main__container .main__img--second {
+  background-image: url("../images/car.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30vh;
+  width: 20%;
 }
 
 * {
