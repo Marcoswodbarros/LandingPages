@@ -7,18 +7,41 @@ header {
   padding: 1rem;
 }
 header .fa-globe {
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 header ul {
+  cursor: pointer;
   display: flex;
   font-family: "Montserrat";
   gap: 2rem;
   margin-left: 5rem;
 }
+header ul li:hover {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.3rem;
+  transition: all 0.5s;
+}
+header .fa-sun {
+  font-size: 0.6rem;
+  left: 75%;
+  position: absolute;
+}
+header .fa-moon {
+  font-size: 0.6rem;
+  left: 75%;
+  position: absolute;
+  display: none;
+}
 header .header__container--connect {
+  cursor: pointer;
   display: flex;
   gap: 0.5rem;
   font-family: "Montserrat";
+}
+header .header__container--connect p:hover {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.3rem;
+  transition: all 0.5s;
 }
 
 main .main__container--title {
@@ -48,6 +71,7 @@ main .main__container .main__img--first {
   background-size: contain;
   height: 30vh;
   width: 20%;
+  margin-left: 3rem;
 }
 main .main__container .main__container--text {
   align-items: center;
@@ -65,6 +89,7 @@ main .main__container .main__container--text span {
   background-color: black;
   border-radius: 0.5rem;
   color: white;
+  cursor: pointer;
   font-size: 0.6rem;
   padding: 1rem 2rem;
 }
@@ -75,6 +100,7 @@ main .main__container .main__img--second {
   background-size: contain;
   height: 30vh;
   width: 20%;
+  margin-right: 3rem;
 }
 main section {
   display: flex;

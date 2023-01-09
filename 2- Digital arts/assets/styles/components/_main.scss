@@ -26,6 +26,7 @@ main{
         .main__img--first{
             background-image: url('../images/headphone.jpg');
             @include imgFormat;
+            margin-left: 3rem;
         }
 
         .main__container--text{
@@ -45,6 +46,7 @@ main{
                 background-color: $color-black;
                 border-radius: .5rem;
                 color: $color-white;
+                cursor: pointer;
                 font-size: .6rem;
                 padding: 1rem 2rem;
             }
@@ -53,6 +55,7 @@ main{
         .main__img--second{
             background-image: url('../images/car.jpg');
             @include imgFormat;
+            margin-right: 3rem;
         }
     }
 

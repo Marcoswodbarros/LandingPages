@@ -5,3 +5,17 @@
     height: 30vh;
     width: 20%;
 }
+
+
+@mixin linksHover {
+    border-bottom: 1px solid $color-black;
+    padding-bottom: .3rem;
+    transition: all .5s;
+}
+
+
+@mixin sunNight {
+    font-size: .6rem;
+    left: 75%;
+    position: absolute;
+}

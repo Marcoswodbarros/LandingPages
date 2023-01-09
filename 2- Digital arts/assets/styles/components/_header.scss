@@ -7,19 +7,39 @@ header{
     padding: 1rem;
 
     .fa-globe{
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 
     ul{
+        cursor: pointer;
         display: flex;
         font-family: $font-text;
         gap: 2rem;
         margin-left: 5rem;
+        
+        li:hover{
+            @include linksHover;
+        }
+    }
+
+    .fa-sun{
+        @include sunNight;
+    }
+
+    .fa-moon{
+        @include sunNight;
+        
+        display: none;
     }
 
     .header__container--connect{
+        cursor: pointer;
         display: flex;
         gap: .5rem;
         font-family: $font-text;
+        
+        p:hover{
+            @include linksHover;
+        }
     }
 }
