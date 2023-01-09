@@ -138,7 +138,7 @@ main .main__container .main__container--text p {
     width: 61%;
   }
 }
-main .main__container .main__container--text span {
+main .main__container .main__container--text .main__button {
   background-color: black;
   border-radius: 0.5rem;
   color: white;
@@ -146,12 +146,12 @@ main .main__container .main__container--text span {
   font-size: 0.6rem;
   padding: 1rem 2rem;
 }
-main .main__container .main__container--text span:hover {
+main .main__container .main__container--text .main__button:hover {
   background-color: pink;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 @media screen and (min-width: 1728px) {
-  main .main__container .main__container--text span {
+  main .main__container .main__container--text .main__button {
     font-size: 1.2rem;
     padding: 1.5rem 2.5rem;
   }
