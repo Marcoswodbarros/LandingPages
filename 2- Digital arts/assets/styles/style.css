@@ -22,11 +22,13 @@ header ul li:hover {
   transition: all 0.5s;
 }
 header .fa-sun {
+  cursor: pointer;
   font-size: 0.6rem;
   left: 75%;
   position: absolute;
 }
 header .fa-moon {
+  cursor: pointer;
   font-size: 0.6rem;
   left: 75%;
   position: absolute;
@@ -69,7 +71,8 @@ main .main__container .main__img--first {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 30vh;
+  border-radius: 0.8rem;
+  height: 21vh;
   width: 20%;
   margin-left: 3rem;
 }
@@ -98,7 +101,8 @@ main .main__container .main__img--second {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 30vh;
+  border-radius: 0.8rem;
+  height: 21vh;
   width: 20%;
   margin-right: 3rem;
 }

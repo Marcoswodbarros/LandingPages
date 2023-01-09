@@ -2,7 +2,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 30vh;
+    border-radius: .8rem;
+    height: 21vh;
     width: 20%;
 }
 
@@ -15,6 +16,7 @@
 
 
 @mixin sunNight {
+    cursor: pointer;
     font-size: .6rem;
     left: 75%;
     position: absolute;
