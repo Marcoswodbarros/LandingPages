@@ -6,6 +6,12 @@ header {
   margin-bottom: 3rem;
   padding: 1rem;
 }
+@media screen and (min-width: 1728px) {
+  header {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+}
 header .fa-globe {
   margin-right: 2rem;
 }
@@ -15,6 +21,11 @@ header ul {
   font-family: "Montserrat";
   gap: 2rem;
   margin-left: 5rem;
+}
+@media screen and (min-width: 1728px) {
+  header ul {
+    margin-left: 10rem;
+  }
 }
 header ul li:hover {
   border-bottom: 1px solid black;
@@ -27,6 +38,11 @@ header .fa-sun {
   left: 75%;
   position: absolute;
 }
+@media screen and (min-width: 1728px) {
+  header .fa-sun {
+    font-size: 1rem;
+  }
+}
 header .fa-moon {
   cursor: pointer;
   font-size: 0.6rem;
@@ -34,11 +50,21 @@ header .fa-moon {
   position: absolute;
   display: none;
 }
+@media screen and (min-width: 1728px) {
+  header .fa-moon {
+    font-size: 1rem;
+  }
+}
 header .header__container--connect {
   cursor: pointer;
   display: flex;
   gap: 0.5rem;
   font-family: "Montserrat";
+}
+@media screen and (min-width: 1728px) {
+  header .header__container--connect {
+    gap: 1rem;
+  }
 }
 header .header__container--connect p:hover {
   border-bottom: 1px solid black;
@@ -56,15 +82,32 @@ main .main__container--title h1 {
   text-align: center;
   width: 20rem;
 }
+@media screen and (min-width: 1728px) {
+  main .main__container--title h1 {
+    font-size: 6rem;
+    margin: 3rem 0;
+    width: 25rem;
+  }
+}
 main .main__container--title h1 span {
   font-family: "Montserrat";
   font-size: 2.5rem;
   font-weight: 700;
 }
+@media screen and (min-width: 1728px) {
+  main .main__container--title h1 span {
+    font-size: 3.5rem;
+  }
+}
 main .main__container {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+@media screen and (min-width: 1728px) {
+  main .main__container {
+    margin: 3rem 0 10rem 0;
+  }
 }
 main .main__container .main__img--first {
   background-image: url("../images/headphone.jpg");
@@ -88,6 +131,13 @@ main .main__container .main__container--text p {
   text-align: center;
   width: 60%;
 }
+@media screen and (min-width: 1728px) {
+  main .main__container .main__container--text p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    width: 61%;
+  }
+}
 main .main__container .main__container--text span {
   background-color: black;
   border-radius: 0.5rem;
@@ -95,6 +145,16 @@ main .main__container .main__container--text span {
   cursor: pointer;
   font-size: 0.6rem;
   padding: 1rem 2rem;
+}
+main .main__container .main__container--text span:hover {
+  background-color: pink;
+  transition: 0.5s;
+}
+@media screen and (min-width: 1728px) {
+  main .main__container .main__container--text span {
+    font-size: 1.2rem;
+    padding: 1.5rem 2.5rem;
+  }
 }
 main .main__container .main__img--second {
   background-image: url("../images/car.jpg");
@@ -119,6 +179,12 @@ main section .section__container {
   line-height: 1rem;
   margin-left: 3rem;
 }
+@media screen and (min-width: 1728px) {
+  main section .section__container {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
 main section .section__container p {
   width: 68%;
 }
@@ -141,10 +207,20 @@ footer {
 footer span {
   font-size: 0.8rem;
 }
+@media screen and (min-width: 1728px) {
+  footer span {
+    font-size: 1.2rem;
+  }
+}
 footer span a {
   color: black;
   font-size: 0.8rem;
   text-decoration: none;
+}
+@media screen and (min-width: 1728px) {
+  footer span a {
+    font-size: 1.2rem;
+  }
 }
 
 * {

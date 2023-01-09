@@ -6,6 +6,11 @@ header{
     margin-bottom: 3rem;
     padding: 1rem;
 
+    @media screen and (min-width: $desktop){
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
     .fa-globe{
         margin-right: 2rem;
     }
@@ -16,6 +21,10 @@ header{
         font-family: $font-text;
         gap: 2rem;
         margin-left: 5rem;
+
+        @media screen and (min-width: $desktop){
+            margin-left: 10rem;
+        }
         
         li:hover{
             @include linksHover;
@@ -24,12 +33,19 @@ header{
 
     .fa-sun{
         @include sunNight;
+
+        @media screen and (min-width: $desktop){
+            font-size: 1rem;
+        }
     }
 
     .fa-moon{
         @include sunNight;
-
         display: none;
+
+        @media screen and (min-width: $desktop){
+            font-size: 1rem;
+        }
     }
 
     .header__container--connect{
@@ -37,6 +53,10 @@ header{
         display: flex;
         gap: .5rem;
         font-family: $font-text;
+
+        @media screen and (min-width: $desktop){
+            gap: 1rem;
+        }
         
         p:hover{
             @include linksHover;

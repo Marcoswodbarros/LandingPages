@@ -9,11 +9,21 @@ main{
             font-size: 4rem;
             text-align: center;
             width: 20rem;
+
+            @media screen and (min-width: $desktop){
+                font-size: 6rem;
+                margin: 3rem 0;
+                width: 25rem;
+            }
     
             span{
                 font-family: $font-text;
                 font-size: 2.5rem;
                 font-weight: 700;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 3.5rem;
+                }
             }
         }
     }
@@ -22,6 +32,10 @@ main{
         align-items: center;
         display: flex;
         justify-content: center;
+
+        @media screen and (min-width: $desktop){
+            margin: 3rem 0 10rem 0;
+        }
 
         .main__img--first{
             background-image: url('../images/headphone.jpg');
@@ -40,6 +54,12 @@ main{
                 line-height: 1.5rem;
                 text-align: center;
                 width: 60%;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                    line-height: 2.5rem;
+                    width: 61%;
+                }
             }
     
             span{
@@ -49,6 +69,16 @@ main{
                 cursor: pointer;
                 font-size: .6rem;
                 padding: 1rem 2rem;
+
+                &:hover{
+                    background-color: $color-pink;
+                    transition: .5s;
+                }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.2rem;
+                    padding: 1.5rem 2.5rem;
+                }
             }
         }
 
@@ -71,6 +101,11 @@ main{
             gap: 1rem;
             line-height: 1rem;
             margin-left: 3rem;
+
+            @media screen and (min-width: $desktop){
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+            }
 
             p{
                 width: 68%;

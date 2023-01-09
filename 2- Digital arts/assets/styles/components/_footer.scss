@@ -8,10 +8,18 @@ footer{
     span{
         font-size: .8rem;
 
+        @media screen and (min-width: $desktop){
+            font-size: 1.2rem;
+        }
+
         a{
             color: $color-black;
             font-size: .8rem;
             text-decoration: none;
+
+            @media screen and (min-width: $desktop){
+                font-size: 1.2rem;
+            }
         }
     }
 }
