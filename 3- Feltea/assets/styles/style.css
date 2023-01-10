@@ -1,1 +1,38 @@
-/*# sourceMappingURL=style.css.map */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+}
+header nav h3 {
+  font-family: "Righteous";
+  text-transform: uppercase;
+}
+header nav ul {
+  display: flex;
+  gap: 3rem;
+}
+header nav ul li {
+  font-family: "Roboto";
+  font-size: 0.8rem;
+}
+header nav .header__container--icon {
+  display: flex;
+  gap: 1rem;
+}
+
+main h1 {
+  font-family: "Righteous";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+main h2 {
+  font-family: "Righteous";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

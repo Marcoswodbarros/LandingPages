@@ -1,0 +1,27 @@
+header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 2.5rem;
+
+        h3{
+            font-family: $upper;
+            text-transform: uppercase;
+        }
+
+        ul{
+            display: flex;
+            gap: 3rem;
+
+            li{
+                font-family: $lower;
+                font-size: .8rem;
+            }
+        }
+
+        .header__container--icon{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
