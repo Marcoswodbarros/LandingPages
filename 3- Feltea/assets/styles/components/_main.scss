@@ -1,11 +1,100 @@
 main{
-    h1{
-       @include titles;
-       font-size: 4rem;
+    .main__titles{
+        h1{
+           @include titles;
+           font-size: 4rem;
+        }
+    
+        h2{
+            @include titles;
+            font-size: 1.5rem;
+        }
     }
 
-    h2{
-        @include titles;
-        font-size: 1.5rem;
+    #section__container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        
+        .main__img{
+            background-image: url('../images/main-img.jpg');
+            background-position: center;
+            background-size: cover;
+            border-radius: 1rem;
+            height: 45vh;
+            width: 40%;
+        }
+
+        #text{
+            padding: 1rem 3rem;
+            width: 40%;
+
+            h4{
+                font-family: $lower;
+                font-size: 1rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding-bottom: .8rem;
+            }
+
+            p{
+                font-family: $lower;
+                font-size: .8rem;
+                line-height: 1rem;
+            }
+
+            .section__container--price{
+                align-items: center;
+                display: flex;
+                gap: 1rem;
+                margin-top: 1rem;
+
+                .section__text--span{
+                    background-color: $color-black;
+                    border-radius: .5rem;
+                    color: white;
+                    padding: .8rem 2rem;
+                }
+
+                p{
+                    font-family: $lower;
+                    font-size: 1rem;
+                    font-weight: 700;
+
+                    span{
+                        font-size: .6rem;
+                    }
+                }
+            }
+        }
+
+
+    }
+    #ingredients{
+        background-color: $color-yellow;
+        margin: 1rem 3rem;
+
+        span{
+            color: $color-green;
+            text-align: center;
+        }
+
+        div{
+            h5{
+                color: $color-green;
+                font-family: $lower;
+                font-size: .8rem;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: $color-green;
+                font-family: $lower;
+                font-size: .8rem;
+                font-weight: 700;
+            }
+        }
     }
 }
