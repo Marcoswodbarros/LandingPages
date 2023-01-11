@@ -1,4 +1,5 @@
 header nav {
+  color: white;
   display: flex;
   justify-content: space-between;
   padding: 2rem 2.5rem;
@@ -12,21 +13,31 @@ header nav ul {
   gap: 3rem;
 }
 header nav ul li {
+  cursor: pointer;
   font-family: "Roboto";
   font-size: 0.8rem;
 }
+header nav ul li:hover {
+  border-bottom: 1px solid white;
+}
 header nav .header__container--icon {
+  cursor: pointer;
   display: flex;
   gap: 1rem;
 }
 
+main .main__titles {
+  margin-bottom: 2rem;
+}
 main .main__titles h1 {
+  color: white;
   font-family: "Righteous";
   text-align: center;
   text-transform: uppercase;
   font-size: 4rem;
 }
 main .main__titles h2 {
+  color: white;
   font-family: "Righteous";
   text-align: center;
   text-transform: uppercase;
@@ -34,21 +45,25 @@ main .main__titles h2 {
 }
 main #section__container {
   align-items: center;
+  background-color: white;
+  border-radius: 1rem;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 0 auto;
+  width: 70%;
 }
 main #section__container .main__img {
   background-image: url("../images/main-img.jpg");
   background-position: center;
   background-size: cover;
-  border-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
   height: 45vh;
-  width: 40%;
+  width: 50%;
 }
 main #section__container #text {
   padding: 1rem 3rem;
-  width: 40%;
+  width: 50%;
 }
 main #section__container #text h4 {
   font-family: "Roboto";
@@ -72,7 +87,13 @@ main #section__container #text .section__container--price .section__text--span {
   background-color: black;
   border-radius: 0.5rem;
   color: white;
+  cursor: pointer;
   padding: 0.8rem 2rem;
+}
+main #section__container #text .section__container--price .section__text--span:hover {
+  background-color: rgb(60, 185, 60);
+  color: black;
+  transition: 0.8s;
 }
 main #section__container #text .section__container--price p {
   font-family: "Roboto";
@@ -87,27 +108,27 @@ main #ingredients {
   border-radius: 1rem;
   display: flex;
   gap: 2rem;
-  margin: 1rem 6rem;
+  margin: 1rem 15%;
   padding: 0.8rem;
   width: 26%;
 }
 main #ingredients span {
-  color: rgb(129, 215, 129);
+  color: rgb(60, 185, 60);
   text-align: center;
 }
 main #ingredients .ingredients__div--first {
   padding: 0.8rem 1.5rem 0.8rem 0.8rem;
-  border-right: 1px solid rgb(129, 215, 129);
+  border-right: 1px solid rgb(60, 185, 60);
 }
 main #ingredients .ingredients__div--first h5 {
-  color: rgb(129, 215, 129);
+  color: rgb(60, 185, 60);
   font-family: "Roboto";
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 main #ingredients .ingredients__div--first p {
-  color: rgb(129, 215, 129);
+  color: rgb(60, 185, 60);
   font-family: "Roboto";
   font-size: 0.8rem;
   font-weight: 700;
@@ -116,14 +137,14 @@ main #ingredients .ingredients__div--second {
   padding: 0.8rem;
 }
 main #ingredients .ingredients__div--second h5 {
-  color: rgb(129, 215, 129);
+  color: rgb(60, 185, 60);
   font-family: "Roboto";
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 main #ingredients .ingredients__div--second p {
-  color: rgb(129, 215, 129);
+  color: rgb(60, 185, 60);
   font-family: "Roboto";
   font-size: 0.8rem;
   font-weight: 700;
@@ -131,4 +152,9 @@ main #ingredients .ingredients__div--second p {
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/body-bg.jpg");
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
