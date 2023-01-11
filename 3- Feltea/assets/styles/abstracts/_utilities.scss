@@ -3,3 +3,18 @@
     text-align: center;
     text-transform: uppercase;
 }
+
+@mixin obsH5 {
+    color: $color-green;
+    font-family: $lower;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@mixin obsP {
+    color: $color-green;
+    font-family: $lower;
+    font-size: .8rem;
+    font-weight: 700;
+}

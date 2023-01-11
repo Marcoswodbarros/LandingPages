@@ -68,32 +68,44 @@ main{
                 }
             }
         }
-
-
     }
+    
     #ingredients{
         background-color: $color-yellow;
-        margin: 1rem 3rem;
+        border-radius: 1rem;
+        display: flex;
+        gap: 2rem;
+        margin: 1rem 6rem;
+        padding: .8rem;
+        width: 26%;
 
         span{
             color: $color-green;
             text-align: center;
         }
 
-        div{
+        .ingredients__div--first{
+            padding: .8rem 1.5rem .8rem .8rem;
+            border-right: 1px solid $color-green;
+
             h5{
-                color: $color-green;
-                font-family: $lower;
-                font-size: .8rem;
-                font-weight: 700;
-                text-transform: uppercase;
+                @include obsH5;
             }
 
             p{
-                color: $color-green;
-                font-family: $lower;
-                font-size: .8rem;
-                font-weight: 700;
+                @include obsP;
+            }
+        }
+
+        .ingredients__div--second{
+            padding: .8rem;
+
+            h5{
+                @include obsH5;
+            }
+
+            p{
+                @include obsP;
             }
         }
     }

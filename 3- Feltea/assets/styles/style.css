@@ -84,20 +84,45 @@ main #section__container #text .section__container--price p span {
 }
 main #ingredients {
   background-color: rgb(255, 255, 127);
-  margin: 1rem 3rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 6rem;
+  padding: 0.8rem;
+  width: 26%;
 }
 main #ingredients span {
   color: rgb(129, 215, 129);
   text-align: center;
 }
-main #ingredients div h5 {
+main #ingredients .ingredients__div--first {
+  padding: 0.8rem 1.5rem 0.8rem 0.8rem;
+  border-right: 1px solid rgb(129, 215, 129);
+}
+main #ingredients .ingredients__div--first h5 {
   color: rgb(129, 215, 129);
   font-family: "Roboto";
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-main #ingredients div p {
+main #ingredients .ingredients__div--first p {
+  color: rgb(129, 215, 129);
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+main #ingredients .ingredients__div--second {
+  padding: 0.8rem;
+}
+main #ingredients .ingredients__div--second h5 {
+  color: rgb(129, 215, 129);
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+main #ingredients .ingredients__div--second p {
   color: rgb(129, 215, 129);
   font-family: "Roboto";
   font-size: 0.8rem;
