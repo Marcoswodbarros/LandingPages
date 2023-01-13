@@ -107,46 +107,52 @@ main #ingredients {
   background-color: rgb(255, 255, 127);
   border-radius: 1rem;
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  gap: 1rem;
   margin: 1rem 15%;
   padding: 0.8rem;
-  width: 26%;
+  width: 30%;
 }
-main #ingredients span {
+main #ingredients .ingredients__container {
+  display: flex;
+  gap: 2rem;
+}
+main #ingredients .ingredients__container span {
   color: rgb(60, 185, 60);
+  padding: 1rem;
   text-align: center;
 }
-main #ingredients .ingredients__div--first {
-  padding: 0.8rem 1.5rem 0.8rem 0.8rem;
+main #ingredients .ingredients__container .ingredients__div--first {
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
   border-right: 1px solid rgb(60, 185, 60);
 }
-main #ingredients .ingredients__div--first h5 {
+main #ingredients .ingredients__container .ingredients__div--first h5 {
   color: rgb(60, 185, 60);
   font-family: "Roboto";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-main #ingredients .ingredients__div--first p {
+main #ingredients .ingredients__container .ingredients__div--first p {
   color: rgb(60, 185, 60);
   font-family: "Roboto";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
-main #ingredients .ingredients__div--second {
-  padding: 0.8rem;
+main #ingredients .ingredients__container .ingredients__div--second {
+  padding: 0.8rem 0.8rem 0.8rem 1.5rem;
 }
-main #ingredients .ingredients__div--second h5 {
+main #ingredients .ingredients__container .ingredients__div--second h5 {
   color: rgb(60, 185, 60);
   font-family: "Roboto";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-main #ingredients .ingredients__div--second p {
+main #ingredients .ingredients__container .ingredients__div--second p {
   color: rgb(60, 185, 60);
   font-family: "Roboto";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
 

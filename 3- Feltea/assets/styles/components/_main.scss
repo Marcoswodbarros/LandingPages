@@ -86,38 +86,46 @@ main{
         background-color: $color-yellow;
         border-radius: 1rem;
         display: flex;
-        gap: 2rem;
+        flex-direction: column;
+        gap: 1rem;
         margin: 1rem 15%;
         padding: .8rem;
-        width: 26%;
+        width: 30%;
 
-        span{
-            color: $color-green;
-            text-align: center;
-        }
+        .ingredients__container{
+            display: flex;
+            gap: 2rem;
 
-        .ingredients__div--first{
-            padding: .8rem 1.5rem .8rem .8rem;
-            border-right: 1px solid $color-green;
 
-            h5{
-                @include obsH5;
+            span{
+                color: $color-green;
+                padding: 1rem;
+                text-align: center;
             }
-
-            p{
-                @include obsP;
+    
+            .ingredients__div--first{
+                padding: .8rem 1.5rem .8rem 1.5rem;
+                border-right: 1px solid $color-green;
+    
+                h5{
+                    @include obsH5;
+                }
+    
+                p{
+                    @include obsP;
+                }
             }
-        }
-
-        .ingredients__div--second{
-            padding: .8rem;
-
-            h5{
-                @include obsH5;
-            }
-
-            p{
-                @include obsP;
+    
+            .ingredients__div--second{
+                padding: .8rem .8rem .8rem 1.5rem;
+    
+                h5{
+                    @include obsH5;
+                }
+    
+                p{
+                    @include obsP;
+                }
             }
         }
     }
