@@ -92,9 +92,18 @@ main{
         padding: .5rem;
         width: 28%;
 
-        h4{
-            padding-left: .5rem;
-            padding-top: .3rem;
+        .ingredients__container--obs{
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+
+            h4{
+                padding-left: .5rem;
+            }
+
+            .fa-circle-chevron-up{
+                display: none;
+            }
         }
 
         .ingredients__container{

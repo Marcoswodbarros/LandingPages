@@ -113,9 +113,16 @@ main #ingredients {
   padding: 0.5rem;
   width: 28%;
 }
-main #ingredients h4 {
+main #ingredients .ingredients__container--obs {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+main #ingredients .ingredients__container--obs h4 {
   padding-left: 0.5rem;
-  padding-top: 0.3rem;
+}
+main #ingredients .ingredients__container--obs .fa-circle-chevron-up {
+  display: none;
 }
 main #ingredients .ingredients__container {
   display: flex;
