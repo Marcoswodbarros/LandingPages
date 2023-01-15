@@ -19,3 +19,14 @@
     font-size: .7rem;
     font-weight: 700;
 }
+
+@mixin ingredientsDesktop {
+    background-color: $color-light-green;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 15%;
+    padding: 1rem;
+    width: 23%;
+}

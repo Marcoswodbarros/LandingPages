@@ -2,6 +2,8 @@
 @import 'abstracts/variables';
 @import 'components/header';
 @import 'components/main';
+@import 'components/sectionContainer';
+@import 'components/sectionIngredients';
 
 *{
     box-sizing: border-box;
@@ -10,4 +12,5 @@
 body{
     background-image: url('../images/body-bg.jpg');
     background-size: cover;
+    height: 100vh;
 }

@@ -1,0 +1,94 @@
+#section__container{
+    align-items: center;
+    background-color: $color-white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    
+    .main__img{
+        background-image: url('../images/main-img.jpg');
+        background-position: center;
+        background-size: cover;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        height: 45vh;
+        width: 50%;
+    }
+
+    #text{
+        padding: 1rem 3rem;
+        width: 50%;
+
+        h4{
+            font-family: $lower;
+            font-size: 1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding-bottom: .8rem;
+
+            @media screen and (min-width: $desktop){
+                font-size: 2rem;
+                padding-bottom: 1.5rem;
+            }
+        }
+
+        p{
+            font-family: $lower;
+            font-size: .8rem;
+            line-height: 1rem;
+
+            @media screen and (min-width: $desktop){
+                font-size: 1.5rem;
+                line-height: 2rem;
+                padding-bottom: 1.2rem;
+            }
+        }
+
+        .section__container--price{
+            align-items: center;
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+
+            .section__text--span{
+                background-color: $color-black;
+                border-radius: .5rem;
+                color: $color-white;
+                cursor: pointer;
+                padding: .8rem 2rem;
+
+                &:hover{
+                    background-color: $color-green;
+                    color: $color-black;
+                    transition: .8s;
+                }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                    padding: 1.2rem 2.5rem;
+                }
+            }
+
+            p{
+                font-family: $lower;
+                font-size: 1rem;
+                font-weight: 700;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                    padding-top: 1.2rem;
+                }
+
+                span{
+                    font-size: .6rem;
+
+                    @media screen and (min-width: $desktop){
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}

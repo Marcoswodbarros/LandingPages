@@ -1,0 +1,95 @@
+#ingredients{
+    background-color: $color-light-green;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 1rem 15%;
+    padding: .5rem;
+    width: 18rem;
+
+    @media screen and (min-width: $desktop){
+        @include ingredientsDesktop;
+    }
+
+    .ingredients__container--obs{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        h4{
+            padding-left: .5rem;
+
+            @media screen and (min-width: $desktop){
+                font-size: 1.2rem;
+            }
+        }
+
+        .fa-circle-chevron-down{
+            cursor: pointer;
+            
+            @media screen and (min-width: $desktop){
+                font-size: 1.2rem;
+            }
+        }
+
+        .fa-circle-chevron-up{
+            cursor: pointer;
+            display: none;
+
+            @media screen and (min-width: $desktop){
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .ingredients__container{
+        display: flex;
+        gap: 2rem;
+        display: none;
+
+        span{
+            color: $color-green;
+            font-size: .8rem;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .ingredients__div--first{
+            padding: .6rem 2.5rem .8rem 1.5rem;
+            border-right: 1px solid $color-green;
+
+            h5{
+                @include obsH5;
+                @media screen and (min-width: $desktop){
+                    font-size: 1.2rem;
+                }
+            }
+
+            p{
+                @include obsP;
+                @media screen and (min-width: $desktop){
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .ingredients__div--second{
+            padding: .6rem .8rem .8rem 1.5rem;
+
+            h5{
+                @include obsH5;
+                @media screen and (min-width: $desktop){
+                    font-size: 1.2rem;
+                }
+            }
+
+            p{
+                @include obsP;
+                @media screen and (min-width: $desktop){
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

@@ -4,10 +4,18 @@ header{
         display: flex;
         justify-content: space-between;
         padding: 2rem 2.5rem;
+
+        @media screen and (min-width: $desktop){
+            padding-bottom: 6rem;
+        }
         
         h3{
             font-family: $upper;
             text-transform: uppercase;
+
+            @media screen and (min-width: $desktop){
+                font-size: 2rem;
+            }
         }
         
         ul{
@@ -22,6 +30,10 @@ header{
                 &:hover{
                     border-bottom: 1px solid $color-white;
                 }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                }
             }
         }
 
@@ -29,6 +41,10 @@ header{
             cursor: pointer;
             display: flex;
             gap: 1rem;
+
+            @media screen and (min-width: $desktop){
+                font-size: 1.5rem;
+            }
         }
     }
 }
