@@ -1,0 +1,42 @@
+main{
+    background-color: $color-black;
+
+    #section__one{
+        padding-left: 4rem;
+        width: 50%;
+
+        h1{
+            color: $color-white;
+            font-family: $roboto;
+            font-size: 3rem;
+            width: 50%;
+        }
+
+        .one__container--text{
+            align-items: center;
+            display: flex;
+            gap: 1rem;
+
+            .section__one--button{
+                background-color: $color-dark-gray;
+                border-radius: .5rem;
+                color: $color-white;
+                display: inline-block;
+                font-family: $roboto;
+                font-size: .8rem;
+                margin-top: 2rem;
+                padding: 1rem 2rem;
+            }
+    
+            .section__one--text{
+                color: $color-gray;
+                display: inline-block;
+                font-family: $mont;
+                font-size: .6rem;
+                line-height: .8rem;
+                margin-top: 2rem;
+                width: 40%;
+            }
+        } 
+    }
+}

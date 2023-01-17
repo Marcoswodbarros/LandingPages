@@ -1,1 +1,65 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+header h2 {
+  color: white;
+  font-family: "Roboto";
+}
+header nav ul {
+  display: flex;
+  gap: 2rem;
+}
+header nav ul li {
+  color: white;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+}
+header nav ul li:hover {
+  border-bottom: 1px solid rgb(176, 175, 175);
+}
+
+main {
+  background-color: black;
+}
+main #section__one {
+  padding-left: 4rem;
+  width: 50%;
+}
+main #section__one h1 {
+  color: white;
+  font-family: "Roboto";
+  font-size: 3rem;
+  width: 50%;
+}
+main #section__one .one__container--text {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+main #section__one .one__container--text .section__one--button {
+  background-color: rgb(70, 70, 70);
+  border-radius: 0.5rem;
+  color: white;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+main #section__one .one__container--text .section__one--text {
+  color: rgb(176, 175, 175);
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  margin-top: 2rem;
+  width: 40%;
+}
+
+* {
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+header{
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    h2{
+        color: $color-white;
+        font-family: $roboto;
+    }
+
+    nav{
+        ul{
+            display: flex;
+            gap: 2rem;
+
+            li{
+                color: $color-white;
+                cursor: pointer;
+                font-family: $roboto;
+                font-size: .8rem;
+
+                &:hover{
+                    border-bottom: 1px solid $color-gray;
+                }
+            }
+        }
+    }
+}
