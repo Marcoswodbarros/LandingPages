@@ -22,11 +22,19 @@ main{
                 background-color: $color-dark-gray;
                 border-radius: .5rem;
                 color: $color-white;
+                cursor: pointer;
                 display: inline-block;
                 font-family: $roboto;
                 font-size: .8rem;
                 margin-top: 2rem;
                 padding: 1rem 2rem;
+
+                &:hover{
+                    background-color: $color-white;
+                    color: $color-black;
+                    font-weight: 700;
+                    transition: 1s;
+                }
             }
     
             .section__one--text{
@@ -42,6 +50,7 @@ main{
         
         .section__one--img{
             background-image: url('../images/main-background.jpg');
+            background-repeat: no-repeat;
             background-size: contain;
             height: 30vh;
             left: 65%;
@@ -55,8 +64,7 @@ main{
         background-color: $color-black;
         display: flex;
         gap: 3rem;
-        padding-bottom: 5rem;
-        padding-top: 5rem;
+        padding-top: 10%;
 
         p{
             color: $color-white;

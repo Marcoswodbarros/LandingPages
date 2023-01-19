@@ -48,11 +48,18 @@ main #section__one .one__container--text .section__one--button {
   background-color: rgb(70, 70, 70);
   border-radius: 0.5rem;
   color: white;
+  cursor: pointer;
   display: inline-block;
   font-family: "Roboto";
   font-size: 0.8rem;
   margin-top: 2rem;
   padding: 1rem 2rem;
+}
+main #section__one .one__container--text .section__one--button:hover {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  transition: 1s;
 }
 main #section__one .one__container--text .section__one--text {
   color: rgb(176, 175, 175);
@@ -65,6 +72,7 @@ main #section__one .one__container--text .section__one--text {
 }
 main #section__one .section__one--img {
   background-image: url("../images/main-background.jpg");
+  background-repeat: no-repeat;
   background-size: contain;
   height: 30vh;
   left: 65%;
@@ -76,8 +84,7 @@ main #section__two {
   background-color: black;
   display: flex;
   gap: 3rem;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding-top: 10%;
 }
 main #section__two p {
   color: white;
