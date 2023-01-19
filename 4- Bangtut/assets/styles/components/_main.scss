@@ -1,8 +1,8 @@
 main{
     background-color: $color-black;
+    padding-left: 7rem;
 
     #section__one{
-        padding-left: 4rem;
         width: 50%;
 
         h1{
@@ -10,6 +10,7 @@ main{
             font-family: $roboto;
             font-size: 3rem;
             width: 50%;
+            margin-bottom: 1rem;
         }
 
         .one__container--text{
@@ -37,6 +38,25 @@ main{
                 margin-top: 2rem;
                 width: 40%;
             }
-        } 
+        }
+        
+        .section__one--img{
+            background-image: url('../images/main-background.jpg');
+            height: 30vh;
+            width: 30%;
+            background-size: contain;
+            position: absolute;
+            top: 20%;
+            left: 65%;
+        }
+    }
+
+    #section__two{
+        background-color: $color-black;
+        padding-top: 5rem;
+
+        p{
+            color: $color-white;
+        }
     }
 }

@@ -2,7 +2,7 @@ header {
   background-color: black;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem 5rem 2rem;
 }
 header h2 {
   color: white;
@@ -24,9 +24,9 @@ header nav ul li:hover {
 
 main {
   background-color: black;
+  padding-left: 7rem;
 }
 main #section__one {
-  padding-left: 4rem;
   width: 50%;
 }
 main #section__one h1 {
@@ -34,6 +34,7 @@ main #section__one h1 {
   font-family: "Roboto";
   font-size: 3rem;
   width: 50%;
+  margin-bottom: 1rem;
 }
 main #section__one .one__container--text {
   align-items: center;
@@ -58,6 +59,22 @@ main #section__one .one__container--text .section__one--text {
   line-height: 0.8rem;
   margin-top: 2rem;
   width: 40%;
+}
+main #section__one .section__one--img {
+  background-image: url("../images/main-background.jpg");
+  height: 30vh;
+  width: 30%;
+  background-size: contain;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+}
+main #section__two {
+  background-color: black;
+  padding-top: 5rem;
+}
+main #section__two p {
+  color: white;
 }
 
 * {
