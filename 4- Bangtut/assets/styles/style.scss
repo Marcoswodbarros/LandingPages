@@ -2,7 +2,12 @@
 @import 'abstracts/variables';
 @import 'components/header';
 @import 'components/main';
+@import 'components/footer';
 
 *{
     box-sizing: border-box;
+}
+
+body{
+    background-color: $color-black;
 }

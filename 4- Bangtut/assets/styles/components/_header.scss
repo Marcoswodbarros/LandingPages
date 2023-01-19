@@ -23,6 +23,10 @@ header{
                 &:hover{
                     border-bottom: 1px solid $color-gray;
                 }
+
+                .fa-arrow-right{
+                    transform: rotate(45deg);
+                }
             }
         }
     }

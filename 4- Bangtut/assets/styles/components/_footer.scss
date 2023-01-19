@@ -1,0 +1,18 @@
+footer{
+    background-color: $color-black;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%);
+
+    p{
+        color: $color-white;
+        font-family: $roboto;
+        font-size: .6rem;
+
+        a{
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+}

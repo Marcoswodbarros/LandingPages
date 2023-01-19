@@ -42,21 +42,41 @@ main{
         
         .section__one--img{
             background-image: url('../images/main-background.jpg');
-            height: 30vh;
-            width: 30%;
             background-size: contain;
+            height: 30vh;
+            left: 65%;
             position: absolute;
             top: 20%;
-            left: 65%;
+            width: 30%;
         }
     }
 
     #section__two{
         background-color: $color-black;
+        display: flex;
+        gap: 3rem;
+        padding-bottom: 5rem;
         padding-top: 5rem;
 
         p{
             color: $color-white;
+            font-size: 2.5rem;
+            font-family: $roboto;
+
+            span{
+                display: inline-block;
+                font-family: $mont;
+                font-size: .6rem;
+                line-height: .8rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                width: 25%;
+            }
+
+            i{
+                font-size: 1rem;
+                transform: rotate(45deg);
+            }
         }
     }
 }

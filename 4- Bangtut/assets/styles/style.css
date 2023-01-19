@@ -21,6 +21,9 @@ header nav ul li {
 header nav ul li:hover {
   border-bottom: 1px solid rgb(176, 175, 175);
 }
+header nav ul li .fa-arrow-right {
+  transform: rotate(45deg);
+}
 
 main {
   background-color: black;
@@ -62,21 +65,60 @@ main #section__one .one__container--text .section__one--text {
 }
 main #section__one .section__one--img {
   background-image: url("../images/main-background.jpg");
-  height: 30vh;
-  width: 30%;
   background-size: contain;
+  height: 30vh;
+  left: 65%;
   position: absolute;
   top: 20%;
-  left: 65%;
+  width: 30%;
 }
 main #section__two {
   background-color: black;
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 5rem;
   padding-top: 5rem;
 }
 main #section__two p {
   color: white;
+  font-size: 2.5rem;
+  font-family: "Roboto";
+}
+main #section__two p span {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 25%;
+}
+main #section__two p i {
+  font-size: 1rem;
+  transform: rotate(45deg);
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%);
+}
+footer p {
+  color: white;
+  font-family: "Roboto";
+  font-size: 0.6rem;
+}
+footer p a {
+  color: white;
+  text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */
