@@ -4,9 +4,17 @@ header{
     justify-content: space-between;
     padding: 1.5rem 2rem 5rem 2rem;
 
+    @media screen and (min-width: $desktop){
+        padding: 3rem 4rem 10rem 4rem;
+    }
+
     h2{
         color: $color-white;
         font-family: $roboto;
+
+        @media screen and (min-width: $desktop){
+            font-size: 2rem;
+        }
     }
 
     nav{
@@ -26,6 +34,10 @@ header{
 
                 .fa-arrow-right{
                     transform: rotate(45deg);
+                }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
                 }
             }
         }

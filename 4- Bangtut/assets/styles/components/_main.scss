@@ -9,8 +9,12 @@ main{
             color: $color-white;
             font-family: $roboto;
             font-size: 3rem;
-            width: 50%;
             margin-bottom: 1rem;
+            width: 50%;
+
+            @media screen and (min-width: $desktop){
+                font-size: 6rem;
+            }
         }
 
         .one__container--text{
@@ -35,6 +39,12 @@ main{
                     font-weight: 700;
                     transition: 1s;
                 }
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.5rem;
+                    margin-top: 4rem;
+                    padding: 2rem 4rem;
+                }
             }
     
             .section__one--text{
@@ -45,6 +55,12 @@ main{
                 line-height: .8rem;
                 margin-top: 2rem;
                 width: 40%;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.2rem;
+                    line-height: 1.5rem;
+                    margin-top: 4rem;
+                }
             }
         }
         
@@ -71,6 +87,10 @@ main{
             font-size: 2.5rem;
             font-family: $roboto;
 
+            @media screen and (min-width: $desktop){
+                font-size: 5rem;
+            }
+
             span{
                 display: inline-block;
                 font-family: $mont;
@@ -79,11 +99,21 @@ main{
                 margin-left: 1rem;
                 margin-right: 1rem;
                 width: 25%;
+
+                @media screen and (min-width: $desktop){
+                    font-size: 1.2rem;
+                    line-height: 1.6rem;
+                    margin-right: 2rem;
+                }
             }
 
             i{
                 font-size: 1rem;
                 transform: rotate(45deg);
+
+                @media screen and (min-width: $desktop){
+                    font-size: 2rem;
+                }
             }
         }
     }

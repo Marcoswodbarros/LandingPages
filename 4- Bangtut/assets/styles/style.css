@@ -4,9 +4,19 @@ header {
   justify-content: space-between;
   padding: 1.5rem 2rem 5rem 2rem;
 }
+@media screen and (min-width: 1728px) {
+  header {
+    padding: 3rem 4rem 10rem 4rem;
+  }
+}
 header h2 {
   color: white;
   font-family: "Roboto";
+}
+@media screen and (min-width: 1728px) {
+  header h2 {
+    font-size: 2rem;
+  }
 }
 header nav ul {
   display: flex;
@@ -24,6 +34,11 @@ header nav ul li:hover {
 header nav ul li .fa-arrow-right {
   transform: rotate(45deg);
 }
+@media screen and (min-width: 1728px) {
+  header nav ul li {
+    font-size: 1.5rem;
+  }
+}
 
 main {
   background-color: black;
@@ -36,8 +51,13 @@ main #section__one h1 {
   color: white;
   font-family: "Roboto";
   font-size: 3rem;
-  width: 50%;
   margin-bottom: 1rem;
+  width: 50%;
+}
+@media screen and (min-width: 1728px) {
+  main #section__one h1 {
+    font-size: 6rem;
+  }
 }
 main #section__one .one__container--text {
   align-items: center;
@@ -61,6 +81,13 @@ main #section__one .one__container--text .section__one--button:hover {
   font-weight: 700;
   transition: 1s;
 }
+@media screen and (min-width: 1728px) {
+  main #section__one .one__container--text .section__one--button {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    padding: 2rem 4rem;
+  }
+}
 main #section__one .one__container--text .section__one--text {
   color: rgb(176, 175, 175);
   display: inline-block;
@@ -69,6 +96,13 @@ main #section__one .one__container--text .section__one--text {
   line-height: 0.8rem;
   margin-top: 2rem;
   width: 40%;
+}
+@media screen and (min-width: 1728px) {
+  main #section__one .one__container--text .section__one--text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: 4rem;
+  }
 }
 main #section__one .section__one--img {
   background-image: url("../images/main-background.jpg");
@@ -91,6 +125,11 @@ main #section__two p {
   font-size: 2.5rem;
   font-family: "Roboto";
 }
+@media screen and (min-width: 1728px) {
+  main #section__two p {
+    font-size: 5rem;
+  }
+}
 main #section__two p span {
   display: inline-block;
   font-family: "Montserrat";
@@ -100,22 +139,39 @@ main #section__two p span {
   margin-right: 1rem;
   width: 25%;
 }
+@media screen and (min-width: 1728px) {
+  main #section__two p span {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-right: 2rem;
+  }
+}
 main #section__two p i {
   font-size: 1rem;
   transform: rotate(45deg);
 }
+@media screen and (min-width: 1728px) {
+  main #section__two p i {
+    font-size: 2rem;
+  }
+}
 
 footer {
   background-color: black;
-  position: absolute;
   bottom: 2%;
   left: 50%;
+  position: absolute;
   transform: translate(-50%);
 }
 footer p {
   color: white;
   font-family: "Roboto";
   font-size: 0.6rem;
+}
+@media screen and (min-width: 1728px) {
+  footer p {
+    font-size: 1.2rem;
+  }
 }
 footer p a {
   color: white;
