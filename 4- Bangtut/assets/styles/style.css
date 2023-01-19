@@ -89,11 +89,11 @@ main #section__one .one__container--text .section__one--button:hover {
   }
 }
 main #section__one .one__container--text .section__one--text {
-  color: rgb(176, 175, 175);
-  display: inline-block;
   font-family: "Montserrat";
   font-size: 0.6rem;
   line-height: 0.8rem;
+  color: rgb(176, 175, 175);
+  display: inline-block;
   margin-top: 2rem;
   width: 40%;
 }
@@ -131,10 +131,10 @@ main #section__two p {
   }
 }
 main #section__two p span {
-  display: inline-block;
   font-family: "Montserrat";
   font-size: 0.6rem;
   line-height: 0.8rem;
+  display: inline-block;
   margin-left: 1rem;
   margin-right: 1rem;
   width: 25%;
