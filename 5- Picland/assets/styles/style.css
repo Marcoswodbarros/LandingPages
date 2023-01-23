@@ -23,4 +23,9 @@ header h1 {
 header #header__img {
   height: 85vh;
   width: 100vw;
+}
+
+#section__cameras img {
+  height: 50vh;
+  width: 100vw;
 }/*# sourceMappingURL=style.css.map */
