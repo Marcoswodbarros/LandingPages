@@ -1,19 +1,26 @@
-header .header__text--container {
+header .header__menu {
+  display: flex;
+  justify-content: space-between;
   padding: 0.5rem;
 }
-header .header__text--container h1 {
+header .header__menu h2 {
   font-family: "Dosis", sans-serif;
 }
-header .header__text--container h2 {
+header .header__menu .fa-sun {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+}
+header .header__menu .fa-moon {
+  display: none;
+}
+header h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5rem;
+  padding: 1rem 0;
   text-align: center;
 }
-header .header__text--container span {
-  background-color: black;
-  border-radius: 0.5rem;
-  color: white;
-  display: inline-block;
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 0.5rem 1rem;
+header #header__img {
+  height: 85vh;
+  width: 100vw;
 }/*# sourceMappingURL=style.css.map */

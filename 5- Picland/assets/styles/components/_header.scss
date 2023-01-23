@@ -1,24 +1,33 @@
 header{
-    .header__text--container{
+    .header__menu{
+        display: flex;
+        justify-content: space-between;
         padding: .5rem;
-
-        h1{
+        
+        h2{
             font-family: $dosis;
         }
 
-        h2{
-            font-family: $sans;
-            font-size: 1.5rem;
-            text-align: center;
+        .fa-sun{
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%);
         }
-        
-        span{
-            background-color: $color-black;
-            border-radius: .5rem;
-            color: $color-white;
-            display: inline-block;
-            font-family: $sans;
-            padding: .5rem 1rem;
+
+        .fa-moon{
+            display: none;
         }
+    }
+
+    h1{
+        font-family: $sans;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    #header__img{
+        height: 85vh;
+        width: 100vw;
     }
 }
