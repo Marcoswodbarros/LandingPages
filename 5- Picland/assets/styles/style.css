@@ -1,1 +1,19 @@
-/*# sourceMappingURL=style.css.map */
+header .header__text--container {
+  padding: 0.5rem;
+}
+header .header__text--container h1 {
+  font-family: "Dosis", sans-serif;
+}
+header .header__text--container h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+header .header__text--container span {
+  background-color: black;
+  border-radius: 0.5rem;
+  color: white;
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0.5rem 1rem;
+}/*# sourceMappingURL=style.css.map */
