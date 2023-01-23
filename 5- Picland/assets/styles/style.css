@@ -26,9 +26,9 @@ header #header__img {
 }
 
 #section__cameras .section__menu--container {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem;
 }
 #section__cameras .section__menu--container h2 {
@@ -37,10 +37,32 @@ header #header__img {
 #section__cameras .section__menu--container .fa-circle-chevron-up {
   display: none;
 }
-#section__cameras .section__img--container {
+#section__cameras .section__img--cameras {
   display: none;
 }
-#section__cameras .section__img--container .section__img--cameras {
+#section__cameras .section__img--cameras .img--cameras {
+  border-radius: 1rem;
+  height: 45vh;
+  padding: 0.5rem;
+  width: 95vw;
+}
+
+#section__forests .section__menu--container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+#section__forests .section__menu--container h2 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+#section__forests .section__menu--container .fa-circle-chevron-up {
+  display: none;
+}
+#section__forests .section__img--forests {
+  display: none;
+}
+#section__forests .section__img--forests .img--forests {
   border-radius: 1rem;
   height: 45vh;
   padding: 0.5rem;

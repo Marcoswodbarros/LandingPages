@@ -1,0 +1,14 @@
+@mixin sectionMenu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+@mixin imgDisplay {
+    border-radius: 1rem;
+    height: 45vh;
+    padding: .5rem;
+    width: 95vw;
+}
