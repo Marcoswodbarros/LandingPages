@@ -1,6 +1,28 @@
 #section__cameras{
-    img{
-        height: 50vh;
-        width: 100vw;
+
+    .section__menu--container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        
+        h2{
+            font-family: $sans;
+        }
+
+        .fa-circle-chevron-up{
+            display: none;
+        }
+    }
+
+    .section__img--container{
+        display: none;
+        
+        .section__img--cameras{
+            border-radius: 1rem;
+            height: 45vh;
+            padding: .5rem;
+            width: 95vw;
+        }
     }
 }
