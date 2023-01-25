@@ -49,6 +49,8 @@ let moon = document.querySelector('.fa-moon');
 let h2 = document.querySelector('h2');
 let menu = document.querySelector('.fa-bars');
 let title = document.querySelector('h1');
+let camerasTitle = document.querySelector('.section__cameras--title');
+let forestTitle = document.querySelector('.section__forests--title');
 
 sun.addEventListener('click', moonOn);
 moon.addEventListener('click', sunOn);
@@ -61,6 +63,8 @@ function moonOn () {
     h2.style.color = "white";
     menu.style.color = "white";
     title.style.color = "white";
+    camerasTitle.style.color = "white";
+    forestTitle.style.color = "white";
 }
 
 function sunOn () {
@@ -70,4 +74,6 @@ function sunOn () {
     h2.style.color = "black";
     menu.style.color = "black";
     title.style.color = "black";
+    camerasTitle.style.color = "black";
+    forestTitle.style.color = "black";
 }
