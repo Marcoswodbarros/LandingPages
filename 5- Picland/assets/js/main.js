@@ -65,6 +65,10 @@ function moonOn () {
     title.style.color = "white";
     camerasTitle.style.color = "white";
     forestTitle.style.color = "white";
+    arrowDown.style.color = "white";
+    arrowUp.style.color = "white";
+    forestDown.style.color = "white";
+    forestUp.style.color = "white";
 }
 
 function sunOn () {
@@ -76,4 +80,8 @@ function sunOn () {
     title.style.color = "black";
     camerasTitle.style.color = "black";
     forestTitle.style.color = "black";
+    arrowDown.style.color = "black";
+    arrowUp.style.color = "black";
+    forestDown.style.color = "black";
+    forestUp.style.color = "black";
 }
