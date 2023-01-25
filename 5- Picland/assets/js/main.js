@@ -46,6 +46,9 @@ function hideForest () {
 let body = document.querySelector('body');
 let sun = document.querySelector('.fa-sun');
 let moon = document.querySelector('.fa-moon');
+let h2 = document.querySelector('h2');
+let menu = document.querySelector('.fa-bars');
+let title = document.querySelector('h1');
 
 sun.addEventListener('click', moonOn);
 moon.addEventListener('click', sunOn);
@@ -55,10 +58,16 @@ function moonOn () {
     moon.style.color = "white";
     moon.style.display = "block";
     sun.style.display = "none";
+    h2.style.color = "white";
+    menu.style.color = "white";
+    title.style.color = "white";
 }
 
 function sunOn () {
     body.style.backgroundColor = "white";
     moon.style.display = "none";
     sun.style.display = "block";
+    h2.style.color = "black";
+    menu.style.color = "black";
+    title.style.color = "black";
 }
