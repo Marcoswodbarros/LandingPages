@@ -13,7 +13,7 @@ forestUp.addEventListener('click', hideForest);
 
 
 
-// Functions
+// Functions - Arrows
 
 function showCamera () {
     arrowDown.style.display = "none";
@@ -38,4 +38,27 @@ function hideForest () {
     forestDown.style.display = "block";
     forestUp.style.display = "none";
     forests.style.display = "none";
+}
+
+
+// Functions - Dark mode
+
+let body = document.querySelector('body');
+let sun = document.querySelector('.fa-sun');
+let moon = document.querySelector('.fa-moon');
+
+sun.addEventListener('click', moonOn);
+moon.addEventListener('click', sunOn);
+
+function moonOn () {
+    body.style.backgroundColor = "black";
+    moon.style.color = "white";
+    moon.style.display = "block";
+    sun.style.display = "none";
+}
+
+function sunOn () {
+    body.style.backgroundColor = "white";
+    moon.style.display = "none";
+    sun.style.display = "block";
 }

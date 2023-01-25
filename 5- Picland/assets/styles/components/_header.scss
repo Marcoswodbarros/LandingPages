@@ -16,6 +16,9 @@ header{
 
         .fa-moon{
             display: none;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%);
         }
     }
 

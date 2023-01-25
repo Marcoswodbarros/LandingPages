@@ -13,6 +13,9 @@ header .header__menu .fa-sun {
 }
 header .header__menu .fa-moon {
   display: none;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
 }
 header h1 {
   font-family: "Source Sans Pro", sans-serif;
