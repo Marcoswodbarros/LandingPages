@@ -1,4 +1,4 @@
-# Landing Pages - Spark Project
+# Landing Pages - Feltea
 
 This is the third of the projects to help people who are starting studying web developement and are looking for some portfolio ideas.
 
